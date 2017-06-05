@@ -1,0 +1,19 @@
+/*
+**  a4.readme
+**  Assignment 4, CMPT-225, Spring 2015
+**  301215536 caz53 chenjian zhu
+**/
+Included C++ libraries:
+<iostream> <string> <vector> <algorithm> <fstream>
+
+Data Structures:
+List1: heap from C++ STL class
+List2: vector of integer
+
+Algorithm:
+1. stores elements from first input list in a maximum heap
+2. stores element from second input list in a vector of integers
+3. get the largest in element from the current heap and check it in the vector
+4. if the largest number is not in the vector, it is the number we are looking for
+5. if the number exists in the vector, get the next largest number from heap, repeat steps from 3-5
+6. if no element in heap left, return None
